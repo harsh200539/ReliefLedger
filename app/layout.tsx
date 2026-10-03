@@ -1,0 +1,1 @@
+import type {Metadata} from 'next';import './globals.css';export const metadata:Metadata={title:'ReliefLedger',description:'A private societal-impact engineering workbench with fictional demonstration data.',icons:{icon:'/favicon.svg'}};export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
